@@ -1,0 +1,55 @@
+/* src/components/Dashboard.css */
+.dashboard {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.card-row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  flex: 1;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #f2f2f2;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.balance {
+  background-color: #fdf6e3;
+}
+
+.income {
+  background-color: #e0f7fa;
+}
+
+.expenses {
+  background-color: #ffebee;
+}
+
+.section {
+  margin-top: 2rem;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
